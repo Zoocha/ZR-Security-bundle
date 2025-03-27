@@ -1,0 +1,19 @@
+{
+    "name": "zr/zr-security-bundle",
+    "description": "ZR Security Bundle",
+    "type": "drupal-recipe",
+    "require": {
+        "php": ">=8.1",
+        "drupal/seckit": "^2.9",
+        "drupal/password_policy": "^4.0",
+        "drupal/username_enumeration_prevention": "^1.4",
+        "drupal/flood_control": "^3.0"
+    },
+    "authors": [
+        {
+            "name": "Arisha Salman",
+            "email": "webifyworld2020@gmail.com"
+        }
+    ],
+    "license": "GPL-2.0-or-later"
+}
