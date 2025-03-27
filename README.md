@@ -1,6 +1,6 @@
-# Zoocha Security Recipe Installation Guide
+# ZR Security Recipe Installation Guide
 
-To install the Zoocha Security recipe, follow the steps below:
+To install the ZR Security recipe, follow the steps below:
 
 1. Open your terminal.
 2. Navigate to your project directory.
@@ -9,10 +9,10 @@ To install the Zoocha Security recipe, follow the steps below:
     ```sh
     composer require drupal/seckit drupal/metata drupal/length_indicator drupal/password_policy_history drupal/password_policy_length drupal/username_enumeration_prevention drupal/flood_control
     ```
-4. Run the following command to execute the Zoocha Security recipe installation:
+4. Run the following command to execute the ZR Security recipe installation:
 
     ```sh
-    ddev drush recipe recipes/custom/zoocha-secuirty-recipe
+    ddev drush recipe recipes/custom/ZR-secuirty-recipe
     ```
 
-This command will execute the Zoocha Security recipe installation.
+This command will execute the ZR Security recipe installation.
