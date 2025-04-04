@@ -4,15 +4,14 @@ To install the ZR Security recipe, follow the steps below:
 
 1. Open your terminal.
 2. Navigate to your project directory.
-3. Install the required composer dependencies by running the following command:
-
+3. Ahead of running `composer require zr/RECIPE_NAME` - ensure the below has been added to the root `composer.json` **installer-paths**
     ```sh
-    composer require drupal/seckit drupal/metata drupal/length_indicator drupal/password_policy_history drupal/password_policy_length drupal/username_enumeration_prevention drupal/flood_control
+    "web/recipes/custom/{$name}": ["type:drupal-recipe"]
     ```
 4. Run the following command to execute the ZR Security recipe installation:
 
     ```sh
-    ddev drush recipe recipes/custom/ZR-secuirty-recipe
+    ddev drush recipe recipes/custom/ZR-security-bundle
     ```
 
 This command will execute the ZR Security recipe installation.

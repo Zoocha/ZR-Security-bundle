@@ -4,10 +4,12 @@
     "type": "drupal-recipe",
     "require": {
         "php": ">=8.1",
-        "drupal/seckit": "^2.9",
-        "drupal/password_policy": "^4.0",
-        "drupal/username_enumeration_prevention": "^1.4",
-        "drupal/flood_control": "^3.0"
+        "zr/zr-security-username": "^1.0",
+        "zr/zr-security-autologout": "^1.0",
+        "zr/zr-security-floodcontrol": "^1.0",
+        "zr/zr-security-seckit": "^1.0",
+        "zr/zr-security-password-policy": "^1.0",
+        "zr/zr-security-clamav": "^1.0"
     },
     "authors": [
         {
