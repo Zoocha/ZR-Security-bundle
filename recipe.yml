@@ -2,7 +2,7 @@ name: 'Zoocha Security Recipe'
 description: 'Provides security modules with baseline configuration'
 type: 'Feature'
 
-install:
+recipe:
   - zr-security-username
   - zr-security-autologout
   - zr-security-floodcontrol
@@ -13,12 +13,6 @@ install:
 config:
   # Allow config import to continue if config already exists.
   strict: false
-  import:
-    # Import all of Admin Toolbar's modules config.
-    seckit: '*'
-    password_policy: '*'
-    username_enumeration_prevention: '*'
-    flood_control: '*'
   actions:
       user.flood:
         simple_config_update:
