@@ -3,13 +3,12 @@ description: 'Provides security modules with baseline configuration'
 type: 'Feature'
 
 install:
-  - seckit
-  - password_policy
-  - password_policy_characters
-  - password_policy_history
-  - password_policy_length
-  - username_enumeration_prevention
-  - flood_control
+  - zr-security-username
+  - zr-security-autologout
+  - zr-security-floodcontrol
+  - zr-security-seckit
+  - zr-security-password-policy
+  - zr-security-clamav
 
 config:
   # Allow config import to continue if config already exists.
