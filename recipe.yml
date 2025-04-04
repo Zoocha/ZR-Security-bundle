@@ -2,7 +2,7 @@ name: 'Zoocha Security Recipe'
 description: 'Provides security modules with baseline configuration'
 type: 'Feature'
 
-recipe:
+recipes:
   - zr-security-username
   - zr-security-autologout
   - zr-security-floodcontrol
